@@ -7,5 +7,7 @@
 3. Copy the CSS from [here](styles.css) when prompted
 4. Might work
 
+![Further help](help.gif)
+
 ## Future Plans
 In the future, I plan to add support for Light Mode, though that would likely require a rewite of the pro amogus sussy developer code
