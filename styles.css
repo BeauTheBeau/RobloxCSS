@@ -1,0 +1,140 @@
+:root {
+    --bg-colour: rgba(020, 020, 020, 1);
+    --bg-colour-2: rgba(030, 030, 030, 0.25);
+    --bg-colour-3: rgba(030, 030, 030, 0.0);
+    --bg-colour-4: rgba(000, 000, 000, 1.0);
+    --bg-colour-4-h: rgba(000, 000, 000, 0.75);
+}
+
+.dark-theme .content,
+.container-main,
+.profile-avatar-mask,
+#container-main, #Body, #RepositionBody {
+    background-color: var(--bg-colour) !important;
+}
+
+a.tab-item, #build-page td.menu-area a.tab-item {
+    color: white !important;
+    background-color: black !important;
+}
+
+a.tab-item:hover, #build-page td.menu-area a.tab-item:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.MyCreationsTab {
+    background-color: black !important;
+}
+
+.container-fluid,
+.navbar-fixed-top,
+.rbx-header,
+.popover-content,
+.dark-theme .dropdown-menu,
+.settings-popover-menu,
+li {
+    backdrop-filter: blur(8px) !important;
+    background-color: var(--bg-colour-2) !important;
+    border-radius: 6px;
+}
+
+.game-carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+div#container-main.container-mai:focus,
+.dark-theme .content:focus {
+    outline: 0;
+}
+
+
+/* Removes ads */
+.ad,
+.abp,
+.other,
+.ad-annotations {
+    display: none;
+}
+
+input#navbar-search-input.form-control.input-field.new-input-field,
+.navbar-search {
+    background-color: var(--bg-colour-3) !important;
+}
+
+img {
+    filter: brightness(65%);
+    transition: 0.2s !important;
+}
+
+img:hover {
+    filter: brightness(100%);
+    transition: 0.2s !important;
+}
+
+.game-card-thumb-container {
+    width: 95%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.game-card-link {
+    height: 100%;
+    border: 1px rgba(255, 255, 255, 0.25) solid;
+    background-color: var(--bg-colour-4);
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s;
+
+}
+
+.game-card-link:hover {
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    background-color: var(--bg-colour-4-h);
+    border-radius: 5px 5px 2px 2px;
+    transition: 0.2s;
+    box-shadow: inset 0px 0px 50px 0px rgba(120, 120, 120, 0.2);
+}
+
+.game-card-friend-info {
+    border-top: 1px solid white;
+}
+
+.game-carousel {
+    padding: 5px;
+}
+
+.navbar-fixed-top {
+    background-color: var(--bg-colour-1) !important;
+
+}
+
+.alert,
+.alert-warning {
+    display: none;
+}
+
+.rbx-upgrade-now {
+    display: none;
+}
+
+.btn-full-width {
+    transition: 0.2s;
+}
+
+.btn-full-width:hover {
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+    transition: 0.2s;
+}
+
+.section-content,
+.rbx-tab-heading,
+.profile-avatar-mask,
+.col-sm-6 {
+    background-color: var(--bg-colour-4-h) !important;
+    border-radius: 5px;
+}
+
+.accoutrement-item, .thumbnail-2d-container, .accoutrment-image, .profile-avatar-mask {
+    background-color: var(--bg-colour-2) !important;
+}
