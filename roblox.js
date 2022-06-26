@@ -1,6 +1,7 @@
-// SETTINGS
-loadCSS = true // Loads CSS if true
-cleanTitle = false // Sets title to "Roblox"
+// SETTINGS - set to true or false depending on your preference
+loadCSS = true // Loads updates CSS via the 69 Studios website 
+cleanTitle = true // Sets title to "Roblox"
+activity = true // Keeps track of your total time spent on the Roblox website
 
 // MAIN
 // functions
@@ -23,11 +24,13 @@ if (localStorage.getItem('time') != null) {
 setInterval(function () {
 	if (document.title != "Roblox" && cleanTitle == true) {document.title = "Roblox";}
 	time += 1
-	if (time > 60) {
-		console.log(roundToTwo(time/60), " minutes or ", time, " seconds")
-	}
-	else {
-		console.log(time)
+	if (activity == true) {
+		if (time > 60) {
+			console.log(roundToTwo(time/60), " minutes or ", time, " seconds")
+		}
+		else {
+			console.log(time)
+		}
 	}
 	// console.log(localStorage.getItem('time'));
 	localStorage.setItem('time', time);
