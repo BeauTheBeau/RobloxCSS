@@ -1,19 +1,24 @@
 // SETTINGS
 loadCSS = true // Loads CSS if true
 cleanTitle = false // Sets title to "Roblox"
+devMode = true // Refreshes CSS every 5 seconds
+cssUrl = `<link rel="stylesheet" type="text/css" href="https://69-studios.repl.co/exStyles/roblox.css">` // links CSS
 
 // MAIN
 // functions
-function roundToTwo(num) {
-    return + (Math.round(num + "e+2")  + "e-2");
-}
+function roundToTwo(num) {return + (Math.round(num + "e+2")  + "e-2");}
 
 //actual
 if (loadCSS == true) {
-	$('head').append('<link rel="stylesheet" type="text/css" href="https://69-studios.repl.co/exStyles/roblox.css">'); // Adds the CSS
+	$('head').append(cssUrl);
 }
 
-
+if (devMode == true) {
+	setInterval(function () {
+		console.log("Refreshed")
+		$('head').append(cssUrl); 
+	}, 5000)
+}
 
 // Logs time spent in Roblox
 var time = 0
