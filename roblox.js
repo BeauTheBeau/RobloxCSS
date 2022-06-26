@@ -3,6 +3,8 @@ loadCSS = true // Loads updates CSS via the 69 Studios website
 cleanTitle = true // Sets title to "Roblox"
 activity = true // Keeps track of your total time spent on the Roblox website
 
+refreshTime = 1000 // How often the setInterval() should run in milliseconds
+
 // MAIN
 // functions
 function roundToTwo(num) {
@@ -31,7 +33,6 @@ setInterval(function () {
 		else {
 			console.log(time)
 		}
+		localStorage.setItem('time', time);
 	}
-	// console.log(localStorage.getItem('time'));
-	localStorage.setItem('time', time);
-}, 1000);
+}, refreshTime); // runs every refreshTime ms
