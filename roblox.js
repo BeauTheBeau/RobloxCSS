@@ -1,7 +1,7 @@
 // SETTINGS
 loadCSS = true // Loads CSS if true
 cleanTitle = false // Sets title to "Roblox"
-devMode = true // Refreshes CSS every 5 seconds
+devMode = false // Refreshes CSS every 5 seconds
 cssUrl = `<link rel="stylesheet" type="text/css" href="https://69-studios.repl.co/exStyles/roblox.css">` // links CSS
 
 // MAIN
