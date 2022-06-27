@@ -10,4 +10,6 @@
 ![Further help](helpjs.gif)
 
 ### Changelog
-- 
+- Updated CSS now loaded from 69 Studios website
+- Settings added through use of variables
+- Logs how much time you have spent on Roblox
