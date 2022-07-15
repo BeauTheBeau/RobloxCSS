@@ -10,6 +10,6 @@
 ![Further help](helpjs.gif)
 
 ### Changelog
-- Updated CSS now loaded from 69 Studios website
-- Settings added through use of variables
-- Logs how much time you have spent on Roblox
+- Text showing time spent on Roblox has moved to the top and will no longer conflict with the Events section
+- When on a game page, the bg image will be set to the image currently shown
+- Improvements to CSS have occured
