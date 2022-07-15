@@ -7,7 +7,8 @@
 3. Copy the JS from [here](roblox.js) when prompted
 4. Might work
 
-![Further help](helpjs.gif)
+#### FURTHER HELP
+![Further help](help_2.gif)
 
 ### Changelog
 - Text showing time spent on Roblox has moved to the top and will no longer conflict with the Events section
