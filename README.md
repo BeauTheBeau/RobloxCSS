@@ -16,7 +16,7 @@
 - Default bg set to average colour of your avatar
 
 
-### Changelog
+# WHAT'S NEW
 - Text showing time spent on Roblox has moved to the top and will no longer conflict with the Events section
 - When on a game page, the bg image will be set to the image currently shown
 - Improvements to CSS have occured
