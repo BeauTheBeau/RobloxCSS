@@ -10,6 +10,12 @@
 #### FURTHER HELP
 ![Further help](help_2.gif)
 
+# WHAT'S NEXT
+- Improvements to time tracker
+- Times played game
+- Default bg set to average colour of your avatar
+
+
 ### Changelog
 - Text showing time spent on Roblox has moved to the top and will no longer conflict with the Events section
 - When on a game page, the bg image will be set to the image currently shown
